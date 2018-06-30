@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0545B9020E6FFC900A357A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0545B8F20E6FFC900A357A1 /* AppDelegate.swift */; };
+		D0545B9220E6FFC900A357A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0545B9120E6FFC900A357A1 /* ViewController.swift */; };
+		D0545B9520E6FFC900A357A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0545B9320E6FFC900A357A1 /* Main.storyboard */; };
+		D0545B9720E6FFC900A357A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0545B9620E6FFC900A357A1 /* Assets.xcassets */; };
+		D0545B9A20E6FFC900A357A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0545B9820E6FFC900A357A1 /* LaunchScreen.storyboard */; };
+		D0545BA520E6FFC900A357A1 /* sushigotrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0545BA420E6FFC900A357A1 /* sushigotrackerTests.swift */; };
+		D0545BB020E6FFCA00A357A1 /* sushigotrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0545BAF20E6FFCA00A357A1 /* sushigotrackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0545BA120E6FFC900A357A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0545B8420E6FFC900A357A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0545B8B20E6FFC900A357A1;
+			remoteInfo = sushigotracker;
+		};
+		D0545BAC20E6FFCA00A357A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0545B8420E6FFC900A357A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0545B8B20E6FFC900A357A1;
+			remoteInfo = sushigotracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0545B8C20E6FFC900A357A1 /* sushigotracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sushigotracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0545B8F20E6FFC900A357A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0545B9120E6FFC900A357A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0545B9420E6FFC900A357A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0545B9620E6FFC900A357A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0545B9920E6FFC900A357A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0545B9B20E6FFC900A357A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0545BA020E6FFC900A357A1 /* sushigotrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sushigotrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0545BA420E6FFC900A357A1 /* sushigotrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sushigotrackerTests.swift; sourceTree = "<group>"; };
+		D0545BA620E6FFC900A357A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0545BAB20E6FFCA00A357A1 /* sushigotrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sushigotrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0545BAF20E6FFCA00A357A1 /* sushigotrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sushigotrackerUITests.swift; sourceTree = "<group>"; };
+		D0545BB120E6FFCA00A357A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0545B8920E6FFC900A357A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0545B9D20E6FFC900A357A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0545BA820E6FFCA00A357A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0545B8320E6FFC900A357A1 = {
+			isa = PBXGroup;
+			children = (
+				D0545B8E20E6FFC900A357A1 /* sushigotracker */,
+				D0545BA320E6FFC900A357A1 /* sushigotrackerTests */,
+				D0545BAE20E6FFCA00A357A1 /* sushigotrackerUITests */,
+				D0545B8D20E6FFC900A357A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0545B8D20E6FFC900A357A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0545B8C20E6FFC900A357A1 /* sushigotracker.app */,
+				D0545BA020E6FFC900A357A1 /* sushigotrackerTests.xctest */,
+				D0545BAB20E6FFCA00A357A1 /* sushigotrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0545B8E20E6FFC900A357A1 /* sushigotracker */ = {
+			isa = PBXGroup;
+			children = (
+				D0545B8F20E6FFC900A357A1 /* AppDelegate.swift */,
+				D0545B9120E6FFC900A357A1 /* ViewController.swift */,
+				D0545B9320E6FFC900A357A1 /* Main.storyboard */,
+				D0545B9620E6FFC900A357A1 /* Assets.xcassets */,
+				D0545B9820E6FFC900A357A1 /* LaunchScreen.storyboard */,
+				D0545B9B20E6FFC900A357A1 /* Info.plist */,
+			);
+			path = sushigotracker;
+			sourceTree = "<group>";
+		};
+		D0545BA320E6FFC900A357A1 /* sushigotrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0545BA420E6FFC900A357A1 /* sushigotrackerTests.swift */,
+				D0545BA620E6FFC900A357A1 /* Info.plist */,
+			);
+			path = sushigotrackerTests;
+			sourceTree = "<group>";
+		};
+		D0545BAE20E6FFCA00A357A1 /* sushigotrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0545BAF20E6FFCA00A357A1 /* sushigotrackerUITests.swift */,
+				D0545BB120E6FFCA00A357A1 /* Info.plist */,
+			);
+			path = sushigotrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0545B8B20E6FFC900A357A1 /* sushigotracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0545BB420E6FFCA00A357A1 /* Build configuration list for PBXNativeTarget "sushigotracker" */;
+			buildPhases = (
+				D0545B8820E6FFC900A357A1 /* Sources */,
+				D0545B8920E6FFC900A357A1 /* Frameworks */,
+				D0545B8A20E6FFC900A357A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sushigotracker;
+			productName = sushigotracker;
+			productReference = D0545B8C20E6FFC900A357A1 /* sushigotracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0545B9F20E6FFC900A357A1 /* sushigotrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0545BB720E6FFCA00A357A1 /* Build configuration list for PBXNativeTarget "sushigotrackerTests" */;
+			buildPhases = (
+				D0545B9C20E6FFC900A357A1 /* Sources */,
+				D0545B9D20E6FFC900A357A1 /* Frameworks */,
+				D0545B9E20E6FFC900A357A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0545BA220E6FFC900A357A1 /* PBXTargetDependency */,
+			);
+			name = sushigotrackerTests;
+			productName = sushigotrackerTests;
+			productReference = D0545BA020E6FFC900A357A1 /* sushigotrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0545BAA20E6FFCA00A357A1 /* sushigotrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0545BBA20E6FFCA00A357A1 /* Build configuration list for PBXNativeTarget "sushigotrackerUITests" */;
+			buildPhases = (
+				D0545BA720E6FFCA00A357A1 /* Sources */,
+				D0545BA820E6FFCA00A357A1 /* Frameworks */,
+				D0545BA920E6FFCA00A357A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0545BAD20E6FFCA00A357A1 /* PBXTargetDependency */,
+			);
+			name = sushigotrackerUITests;
+			productName = sushigotrackerUITests;
+			productReference = D0545BAB20E6FFCA00A357A1 /* sushigotrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0545B8420E6FFC900A357A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Justin;
+				TargetAttributes = {
+					D0545B8B20E6FFC900A357A1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					D0545B9F20E6FFC900A357A1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D0545B8B20E6FFC900A357A1;
+					};
+					D0545BAA20E6FFCA00A357A1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D0545B8B20E6FFC900A357A1;
+					};
+				};
+			};
+			buildConfigurationList = D0545B8720E6FFC900A357A1 /* Build configuration list for PBXProject "sushigotracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0545B8320E6FFC900A357A1;
+			productRefGroup = D0545B8D20E6FFC900A357A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0545B8B20E6FFC900A357A1 /* sushigotracker */,
+				D0545B9F20E6FFC900A357A1 /* sushigotrackerTests */,
+				D0545BAA20E6FFCA00A357A1 /* sushigotrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0545B8A20E6FFC900A357A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0545B9A20E6FFC900A357A1 /* LaunchScreen.storyboard in Resources */,
+				D0545B9720E6FFC900A357A1 /* Assets.xcassets in Resources */,
+				D0545B9520E6FFC900A357A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0545B9E20E6FFC900A357A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0545BA920E6FFCA00A357A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0545B8820E6FFC900A357A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0545B9220E6FFC900A357A1 /* ViewController.swift in Sources */,
+				D0545B9020E6FFC900A357A1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0545B9C20E6FFC900A357A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0545BA520E6FFC900A357A1 /* sushigotrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0545BA720E6FFCA00A357A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0545BB020E6FFCA00A357A1 /* sushigotrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0545BA220E6FFC900A357A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0545B8B20E6FFC900A357A1 /* sushigotracker */;
+			targetProxy = D0545BA120E6FFC900A357A1 /* PBXContainerItemProxy */;
+		};
+		D0545BAD20E6FFCA00A357A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0545B8B20E6FFC900A357A1 /* sushigotracker */;
+			targetProxy = D0545BAC20E6FFCA00A357A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0545B9320E6FFC900A357A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0545B9420E6FFC900A357A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0545B9820E6FFC900A357A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0545B9920E6FFC900A357A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0545BB220E6FFCA00A357A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0545BB320E6FFCA00A357A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0545BB520E6FFCA00A357A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sushigotracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hackerpug.sushigotracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D0545BB620E6FFCA00A357A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sushigotracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hackerpug.sushigotracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D0545BB820E6FFCA00A357A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sushigotrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hackerpug.sushigotrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sushigotracker.app/sushigotracker";
+			};
+			name = Debug;
+		};
+		D0545BB920E6FFCA00A357A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sushigotrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hackerpug.sushigotrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sushigotracker.app/sushigotracker";
+			};
+			name = Release;
+		};
+		D0545BBB20E6FFCA00A357A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = sushigotrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hackerpug.sushigotrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = sushigotracker;
+			};
+			name = Debug;
+		};
+		D0545BBC20E6FFCA00A357A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = sushigotrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hackerpug.sushigotrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = sushigotracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0545B8720E6FFC900A357A1 /* Build configuration list for PBXProject "sushigotracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0545BB220E6FFCA00A357A1 /* Debug */,
+				D0545BB320E6FFCA00A357A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0545BB420E6FFCA00A357A1 /* Build configuration list for PBXNativeTarget "sushigotracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0545BB520E6FFCA00A357A1 /* Debug */,
+				D0545BB620E6FFCA00A357A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0545BB720E6FFCA00A357A1 /* Build configuration list for PBXNativeTarget "sushigotrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0545BB820E6FFCA00A357A1 /* Debug */,
+				D0545BB920E6FFCA00A357A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0545BBA20E6FFCA00A357A1 /* Build configuration list for PBXNativeTarget "sushigotrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0545BBB20E6FFCA00A357A1 /* Debug */,
+				D0545BBC20E6FFCA00A357A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0545B8420E6FFC900A357A1 /* Project object */;
+}
