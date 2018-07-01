@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PlayerTableViewCell.swift"
+            timestampString = "552088517.227048"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "5"
+            endingLineNumber = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sushigotracker.PlayerTableViewCell.__deallocating_deinit"
+                  moduleName = "sushigotracker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/justin/Documents/coding/Projects/sushigotracker/sushigotracker/PlayerTableViewCell.swift"
+                  timestampString = "552088518.51431"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sushigotracker.PlayerTableViewCell.init (style : __C.UITableViewCellStyle, reuseIdentifier : Swift.Optional&lt;Swift.String&gt;) -&gt; sushigotracker.PlayerTableViewCell"
+                  moduleName = "sushigotracker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/justin/Documents/coding/Projects/sushigotracker/sushigotracker/PlayerTableViewCell.swift"
+                  timestampString = "552088518.518241"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sushigotracker.PlayerTableViewCell.__allocating_init (style : __C.UITableViewCellStyle, reuseIdentifier : Swift.Optional&lt;Swift.String&gt;) -&gt; sushigotracker.PlayerTableViewCell"
+                  moduleName = "sushigotracker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/justin/Documents/coding/Projects/sushigotracker/sushigotracker/PlayerTableViewCell.swift"
+                  timestampString = "552088518.522755"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sushigotracker.PlayerTableViewCell.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;sushigotracker.PlayerTableViewCell&gt;"
+                  moduleName = "sushigotracker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/justin/Documents/coding/Projects/sushigotracker/sushigotracker/PlayerTableViewCell.swift"
+                  timestampString = "552088518.527213"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sushigotracker.PlayerTableViewCell.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;sushigotracker.PlayerTableViewCell&gt;"
+                  moduleName = "sushigotracker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/justin/Documents/coding/Projects/sushigotracker/sushigotracker/PlayerTableViewCell.swift"
+                  timestampString = "552088518.530432"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "sushigotracker/ViewController.swift"
+            timestampString = "552090654.687619"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "onAddPlayer(_:forEvent:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
